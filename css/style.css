@@ -37,7 +37,7 @@ h1 {
 h3 {
   font-size: 150%;
 }
-
+/*HEADER Y BARRA DE NAVEGACIÓN*/
 header {
   text-align: center;
   position: fixed;
@@ -72,8 +72,9 @@ header nav {
   background-color:antiquewhite;
 }
 
+/*INTRODUCCIÓN*/
+
 .introduccion {
-  margin-top: 20vh;
 /*  padding-top: 1%;*/
   padding-left: 0%;
   text-align: center;
@@ -99,22 +100,57 @@ header nav {
   height: 100%;
   z-index: 0;
 }
+/* Pantallas con un ancho mínimo de 2239px */
+@media screen and (min-width: 2239px) {
+  .introduccion {
+    margin-top: 18vh; 
+  }
+  .contenido-intro {
+    font-size: x-large;
+  }
+}
+/* Pantallas con un ancho mínimo de 1939px */
+@media screen and (min-width: 1939px) {
+  .introduccion {
+    margin-top: 18vh;
+  }
+  .contenido-intro {
+    font-size: x-large;
+  }
+}
 
-@media only screen and (max-width: 476px){
+/* Pantallas con un ancho máximo de 1938px */
+@media screen and (max-width: 1938px) {
+  .introduccion {
+    margin-top: 18vh;
+  }
+  .contenido-intro {
+    font-size: x-large;
+  }
+}
+
+/* Pantallas con un ancho máximo de 500px */
+@media only screen and (max-width: 500px) {
   .introduccion {
     margin-top: 25vh;
   }
   .contenido-intro {
     font-size: medium;
     background-color: rgb(202, 240, 227);
-    opacity: 80%;
+    opacity: 0.8; /* Ajuste de opacidad a un valor decimal (0.8 equivale al 80%) */
   }
 }
+
+
+
+
+/*CONTENIDO DE LA PÁGINA*/
 
 .que-es {
   background-color: var(--azul-bonito);
   color: aliceblue;
   padding: 7% 10%;
+  width: 100%;
 }
 
 .que-es-estado{
@@ -137,6 +173,8 @@ li {
   z-index: 1;
 }
  */
+
+/*CARDS*/
 .card-temas {
   margin-bottom: 20px;
 }
@@ -188,6 +226,8 @@ li {
   color: #3498db;
 }
 
+
+/*FOOTER*/
 footer {
   background-color:#10253d;
   color: var(--jasmine);
