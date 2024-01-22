@@ -1,0 +1,10 @@
+.index_title {
+    text-decoration: none;
+}
+.index_title :hover {
+ color: rgb(173, 216, 245);
+}
+
+.articulo-objeto {
+    margin-top: 20vh;
+}
