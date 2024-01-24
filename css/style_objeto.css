@@ -27,7 +27,7 @@ body {
 }
 .parr-obj {
     padding: 13%;
-    text-align: justify;
+    text-align: center;
 }
 
 .objeto-title {
@@ -35,8 +35,12 @@ body {
     background-color: var(--uranian-blue);
     padding-top: 1%;
     margin: 0%;
+    margin-top: 10%;
+    font-size: 200%;
 }
-
+.uno {
+    padding-top: 7%;
+}
 
 .uno, .tres, .cinco, .siete {
     background-color: var(--uranian-blue);
