@@ -1,0 +1,52 @@
+/* CSS palette */
+:root {
+    --oxford-blue: rgb(3, 44, 82);
+    --azul-bonito: #274C77;
+    --reseda-green: #7a755aff;
+    --ecru: #b7a574ff;
+    --peach-yellow: #f7e1adff;
+    --jasmine: #f4d58dff;
+    --engineering-orange: #bf0603ff;
+    --dark-red: #8d0801ff;
+    --antiflash-white: #e7ecefff;
+    --air-superiority-blue: #6096baff;
+    --uranian-blue: #a3cef1ff;
+    --battleship-gray: #8b8c89ff;
+  
+  }
+body {
+    background-color: var(--uranian-blue);
+}
+.articulo-objeto {
+    margin-top: 20vh;
+    font-size: large;
+}
+
+@media screen and (max-width: 476px) {
+    .articulo-objeto{margin-top: 30vh;}
+}
+.parr-obj {
+    padding: 13%;
+    text-align: justify;
+}
+
+.objeto-title {
+    text-align: center;
+    background-color: var(--uranian-blue);
+    padding-top: 1%;
+    margin: 0%;
+}
+
+
+.uno, .tres, .cinco, .siete {
+    background-color: var(--uranian-blue);
+}
+
+.dos, .cuatro, .seis{
+    background-color: var(--antiflash-white);
+}
+
+
+footer {
+    margin: 0;
+}
