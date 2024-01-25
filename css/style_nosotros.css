@@ -1,0 +1,22 @@
+/* CSS palette */
+:root {
+    --oxford-blue: rgb(3, 44, 82);
+    --azul-bonito: #274C77;
+    --reseda-green: #7a755aff;
+    --ecru: #b7a574ff;
+    --peach-yellow: #f7e1adff;
+    --jasmine: #f4d58dff;
+    --engineering-orange: #bf0603ff;
+    --dark-red: #8d0801ff;
+    --antiflash-white: #e7ecefff;
+    --air-superiority-blue: #6096baff;
+    --uranian-blue: #a3cef1ff;
+    --battleship-gray: #8b8c89ff;
+  
+  }
+.art_nosotros {
+    margin-top: 20vh;
+    font-size: large;
+    text-align: center;
+    padding: 10%;
+}
