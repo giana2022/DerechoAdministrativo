@@ -100,47 +100,6 @@ header nav {
   height: 100%;
   z-index: 0;
 }
-/* Pantallas con un ancho mínimo de 2239px */
-@media screen and (min-width: 2239px) {
-  .introduccion {
-    margin-top: 18vh; 
-  }
-  .contenido-intro {
-    font-size: x-large;
-  }
-}
-/* Pantallas con un ancho mínimo de 1939px */
-@media screen and (min-width: 1939px) {
-  .introduccion {
-    margin-top: 18vh;
-  }
-  .contenido-intro {
-    font-size: x-large;
-  }
-}
-
-/* Pantallas con un ancho máximo de 1938px */
-@media screen and (max-width: 1938px) {
-  .introduccion {
-    margin-top: 8.5vh;
-  }
-  .contenido-intro {
-    font-size: x-large;
-  }
-}
-
-/* Pantallas con un ancho máximo de 500px */
-@media only screen and (max-width: 479px) {
-  .introduccion {
-    margin-top: 12vh;
-  }
-  .contenido-intro {
-    font-size: medium;
-    background-color: rgb(202, 240, 227);
-    opacity: 0.8; /* Ajuste de opacidad a un valor decimal (0.8 equivale al 80%) */
-  }
-}
-
 
 
 
