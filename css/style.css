@@ -37,6 +37,10 @@ h1 {
 h3 {
   font-size: 150%;
 }
+
+a{
+  text-decoration: none;
+}
 /*HEADER Y BARRA DE NAVEGACIÓN*/
 header {
   text-align: center;
