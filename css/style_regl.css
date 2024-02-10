@@ -1,7 +1,64 @@
+/*GENERAL*/
 h2 {
     font-size: 200%;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 1%;
+}
+
+p{
+    text-align: justify;
+}
+
+article {
+    padding: 3%;
+    margin: 0;
 }
 
 .art-regl-admin {
     margin-top: 10%;
 }
+
+@media screen and (max-width: 700px) {
+    .art-regl-admin{
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .art-regl-admin{
+        margin-top: 28%;
+    }
+}
+
+/*ESPECÍFICO*/
+
+.concepto-regl {
+    background-image:url('../img/Casa_Rosada_Buenos_Aires_recortado.jpg'); /*Modificar al ancho y alto*/
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-size: 120% 105%;
+
+}
+.concepto-regl h2{
+    background-color: azure;
+    opacity: 0.85;
+    margin: 0;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.concepto-regl p{
+    text-align: center;
+    font-size: 150%;
+    margin-top: 0.7%;
+    background-color: azure;
+    opacity: 0.85;
+    margin: 0;
+    border-radius: 0px 0px 10px 10px;
+}
+
