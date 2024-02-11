@@ -13,6 +13,7 @@ h3 {
 
 p{
     text-align: justify;
+    margin: 0.25% auto;
 }
 
 article {
@@ -43,6 +44,7 @@ article {
     background-size: inherit;
     background-repeat: no-repeat;
     background-size: 120% 105%;
+    padding: 8% 5%;
 
 }
 .concepto-regl h2{
@@ -62,3 +64,15 @@ article {
     border-radius: 0px 0px 10px 10px;
 }
 
+.clases-regl {
+    background-color:  #a3cef1ff;
+
+}
+
+.clases-regl p {
+    margin: 1% auto;
+}
+
+footer p {
+    text-align: center;
+}
