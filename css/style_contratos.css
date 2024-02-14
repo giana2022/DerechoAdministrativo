@@ -1,0 +1,25 @@
+.articulo-contratos {
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 995px) {
+.articulo-contratos{
+    margin-top: 12%;
+}
+}
+
+@media screen and (max-width: 995px) {
+    .articulo-contratos{
+        margin-top: 18%;
+    }
+    }
+    
+ @media screen and (max-width: 495px) {
+    .articulo-contratos{
+        margin-top: 35%;
+    }
+}
+        
+.articulo-contratos p {
+    text-align: justify;
+}
