@@ -5,14 +5,14 @@
 @media screen and (max-width: 995px) {
 .articulo-contratos{
     margin-top: 12%;
-}
+    }
 }
 
 @media screen and (max-width: 995px) {
     .articulo-contratos{
         margin-top: 18%;
     }
-    }
+}
     
  @media screen and (max-width: 495px) {
     .articulo-contratos{
@@ -22,4 +22,68 @@
         
 .articulo-contratos p {
     text-align: justify;
+    margin: 2%;
+}
+
+.articulo-contratos h2 {
+    font-size: 35px;
+}
+
+.articulo-contratos h3 {
+    font-size: 20px;
+}
+
+.articulo-contratos h2, h3, h4, h5, h6 {
+    text-align: center;
+    margin: 2%;
+}
+
+
+
+
+/*#############LICITACIÓN#############*/
+.licitacion {
+    margin-top: 12%;
+}
+
+@media screen and (max-width: 995px) {
+    .licitacion{
+        margin-top: 18%;
+    }
+}
+    
+ @media screen and (max-width: 495px) {
+    .licitacion{
+        margin-top: 35%;
+    }
+}
+
+.licitacion h2 {
+    font-size: 205%;
+}
+
+.articulo-licitacion {
+    margin-left: 2%;
+}
+
+.articulo-licitacion a {
+    font-size: 20px;
+}
+
+.licitacion-articulo article {
+    margin: 2%;
+}
+
+.licitacion-articulo p, ol, ul {
+    margin: 2%;
+    text-align: justify;
+}
+
+.licitacion-articulo ol, ul, li {
+    margin-left: 2%;
+}
+
+
+.licitacion-articulo h2, h3 {
+    text-align: center;
 }
