@@ -87,3 +87,25 @@
 .licitacion-articulo h2, h3 {
     text-align: center;
 }
+
+.licitacion img{
+    width: 100%;
+}
+
+.licitacion h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 350%;
+    background-color: rgb(8, 92, 175);
+    color: aliceblue;
+    padding: 4% 0%;
+    border: solid black;
+}
+
+.licitacion-articulo h2 {
+    font-size: 200%;
+    color: black;
+    background-color: white;
+    border: none;
+    padding: 0%;
+}
