@@ -55,6 +55,7 @@ header h1 {
   text-align: center;
   justify-content: center;
   padding: 1%;
+  margin-bottom: 0%;
 }
 header nav {
   text-align: left;
@@ -62,20 +63,29 @@ header nav {
   padding: 0.5%;
 }
 
+.barra_navegacion {
+  text-align: start;
+  padding: 1% 0%;
+
+}
+
 .barra_navegacion a {
   text-decoration: none;
   background-color: var(--dark-red);
   color: burlywood;
-  padding: 0.5% 2%;
+  padding: 0.5% 3%;
   margin: 0px;
-  font-size: 120%;
+  font-size: 130%;
 }
+
 
 .barra_navegacion a:hover {
-  background-color: var(--engineering-orange);
-  background-color:antiquewhite;
+  color:antiquewhite;
 }
-
+button {
+  visibility: hidden;
+  display: none;
+}
 /*INTRODUCCIÓN*/
 
 .introduccion {
@@ -213,4 +223,97 @@ footer {
 .que-es, .que_es_estado, .caracteres, .card-temas, footer {
   margin: 1% auto;
   text-align: center;
+}
+
+/*MODELO RESPONSIVE CON BARRA DE NAVEGACIÓN*/
+ 
+@media screen and (max-width: 476px) {
+  h2, h3, h4, h5, h6, p {
+    font-size: 80%;
+  }
+  .encabezado {
+    box-shadow: none;
+  }
+
+  .encabezado  h1 {
+    font-size: 7vw;
+    padding: 3%;
+  }
+
+  nav{
+    visibility: hidden;
+  }
+  .abrir{
+    display: block;
+    visibility: visible;
+    background-color: var(--oxford-blue);
+    color: white;
+    padding: 4%;
+    font-size: 2rem;
+  }
+
+  .titulo-encabezado {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--oxford-blue);
+  }
+
+
+  .container .card p, a {
+    font-size: 90%;
+  }
+
+  .barra_navegacion {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--dark-red);
+    padding: 2rem;
+    bottom: 0;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+    z-index: 1;
+    height: 1000%; 
+  }
+
+  .barra_navegacion.visible{
+      opacity:  1;
+      visibility: visible;
+      margin-top: 0%;
+  }
+
+  .barra_navegacion a {
+    padding: 0%;
+  }
+  .nav-list {
+    flex-direction: column;
+    align-items: end;
+    margin-top: -30%;
+  } 
+  .nav-list .li {
+    text-decoration: none;
+    list-style: none;
+    padding: 3% 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+ 
+  .cerrar.visible{
+    opacity:  1;
+    visibility: visible;
+    display: flex;
+    background-color: var(--dark-red);
+    color: white;
+    font-size: 2rem;
+    margin: 0%;
+    padding: 0%;
+}
+
 }
