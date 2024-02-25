@@ -14,6 +14,11 @@
     --battleship-gray: #8b8c89ff;
   
   }
+.index_title h1{
+  padding: 2%;
+  font-weight: bold;
+}
+
 .art_nosotros {
     margin-top: 20vh;
     font-size: large;
@@ -23,6 +28,10 @@
 
 nav {
   margin: -0.8%;
+}
+
+.nav-list{
+  margin-bottom: 0%;
 }
         /*Carrousel*/
 
