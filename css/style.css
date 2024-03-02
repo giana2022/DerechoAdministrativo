@@ -114,7 +114,11 @@ button {
   height: 100%;
   z-index: 0;
 }
-
+@media screen and (max-width: 800px) {
+  .imagen-portada {
+    margin-top: 12%;
+  }
+}
 
 
 /*CONTENIDO DE LA PÁGINA*/
