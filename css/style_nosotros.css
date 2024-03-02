@@ -15,10 +15,13 @@
   
   }
 .index_title h1{
-  padding: 1%;
+  padding: 2%;
   font-weight: bold;
+  font-size: 250%;
 }
-
+.barra_navegación{
+  padding: 1% 0%;
+}
 .art_nosotros {
     margin-top: 20vh;
     font-size: large;
@@ -32,6 +35,7 @@ nav {
 
 .nav-list{
   margin-bottom: 0%;
+padding-left: 0.5rem;
 }
         /*Carrousel*/
 

@@ -113,3 +113,15 @@
 .nav-list {
     margin: 1px auto;
 }
+
+@media screen and (max-width: 500px) {
+    .licitacion h2{
+        font-size: 150%;
+    }
+    .licitacion {
+        margin-top: 25%;
+    }
+    h3, h6 {
+        font-size: 100%;
+    }
+}
